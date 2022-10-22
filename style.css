@@ -1,0 +1,75 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Rubik+Dirt&display=swap');
+ :root{
+    --letra-encabezado: 'Rubik Dirt', cursive;
+ 
+ }
+.titulo{
+    width: auto;
+    background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg");
+    color: aliceblue;
+    }
+
+ h1::before{
+    content: "";
+    width: 33px;
+    height: 68px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero-vector.svg");
+ } 
+ 
+ h1{
+    font-family: var(--letra-encabezado);
+    display: grid;
+    display: flex;
+    grid-template-columns:146px 146px 481px;
+    grid-template-rows: repeat(4,auto);
+   
+
+
+ }
+
+#aprende{
+    
+    font-size: 40px;
+    grid-column: 1/4;
+    grid-row: 1/2;
+     }
+    
+#en{
+    font-size: 30;
+    grid-column: 2/3;
+    grid-row: 2/3;   
+   }
+
+#escuelas{
+    font-size: 50px;
+    grid-column: 3/4;
+    grid-row: 2/4;
+    }
+#cdmx{
+    font-size: 30;
+    grid-column: 3/4;
+    grid-row: 4/5;
+}       
+nav{
+    justify-items: center;
+    background-color: whitesmoke;
+    border-top: 8px solid rgb(156, 41, 122);
+}
+
+
+body{
+background-color: rgb(209, 205, 205);
+}
+p{
+text-align: center;
+background-color: antiquewhite;
+}
+h2{
+    align-content: center;
+    background-color: rgb(230, 215, 205);
+} 
+
